@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DialogApp</string>
+
+    <string name="instructions">Type a Work</string>
+    <string name="addEmphasis_button">Add Emphasis</string>
+
+    <string name="edit_text_entered_in"></string>
+
+</resources>

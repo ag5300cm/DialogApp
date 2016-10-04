@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<DialogEmphasis xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/dialog_emphasis_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_text_entered_in"
+        android:id="@+id/dialog_textview"/>
+
+    <CheckBox
+        android:id="@+id/capitalize_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capitalize"
+        android:layout_below="@+id/dialog_textview"
+        />
+
+    <CheckBox
+        android:id="@+id/add_exclamation_points_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Exclamation Points"
+        android:layout_below="@+id/capitalize_checkbox"
+        />
+
+    <CheckBox
+        android:id="@+id/add_smiley_face_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Smiley Face"
+        android:layout_below="@+id/add_exclamation_points_checkbox"
+        />
+
+    <Button
+        android:id="@+id/dialog_ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:layout_below="@+id/add_smiley_face_checkbox"
+        />
+
+</DialogEmphasis>
